@@ -11,8 +11,6 @@ COPY package.json .
 COPY . .
 COPY docker-entrypoint.sh /
 
-#RUN npm install
-
 CMD ["npm","run","build"]
 
 ENTRYPOINT ["/docker-entrypoint.sh"]

@@ -3,10 +3,6 @@ version: '3'
 services:
   app:
     build: .
-    ports:
-      - 8060:8080
     volumes:
-      - src:/usr/src/app
+      - $PWD:/usr/src/app
 
-volumes:
-  src:
