@@ -29,7 +29,7 @@ npm run build
 1. Copiar y personalizar config.js dentro de src
 1. Instalar y complilar: 
 ``` bash
-docker-compose up -d
+docker-compose up
 ```
 
 ## Archivo de configuración del proyecto
