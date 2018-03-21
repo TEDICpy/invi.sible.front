@@ -5,10 +5,10 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV CODE /usr/src/app
 
 WORKDIR $CODE
-COPY package.json .
 
 # Copy code to conatiner volume
 COPY . .
+
 COPY docker-entrypoint.sh /
 
 CMD ["npm","run","build"]

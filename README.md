@@ -25,11 +25,17 @@ npm run build
 
 ## Deploy con Docker (docker-compose)
 
-1. Pre: tener instalado docker y docker-compose
-1. Copiar y personalizar config.js dentro de src
-1. Instalar y complilar: 
+**1.** Pre: tener instalado docker y docker-compose
+
+**2.** Copiar y personalizar config.js dentro de src
+
+**3.** Instalar y complilar: 
 ``` bash
 docker-compose up
+```
+**4.** Si se requiere se puede correr un dev:
+``` bash
+docker-compose run app npm run dev
 ```
 
 ## Archivo de configuración del proyecto
