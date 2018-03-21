@@ -23,6 +23,15 @@ npm run dev
 npm run build
 ```
 
+## Deploy con Docker (docker-compose)
+
+1. Pre: tener instalado docker y docker-compose
+1. Copiar y personalizar config.js dentro de src
+1. Instalar y complilar: 
+``` bash
+docker-compose up -d
+```
+
 ## Archivo de configuración del proyecto
 
 El archivo de configuración del proyecto (*src/config.js*) debe contener las siguientes propiedades:
