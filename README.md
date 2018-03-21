@@ -65,3 +65,8 @@ Consulte el archivo *src/config.js.example* para ver una configuración de ejemp
 ## Demo de gráficos embebidos
 
 Para ver una demostración sobre cómo embeber los gráficos implementados en otras páginas, hacer deploy de la aplicación y abrir el archivo *iframes.html* en el navegador.
+
+## Deploy en servidor web Apache
+El proyecto está preparado para poder ser desplegado en un servidor web Apache. 
+Luego de ejecutar *npm run build*, se deben copiar los archivos **index.html**, **.htaccess** y el directorio **dist** al servidor apache.
+Tener en cuenta que el módulo **mod_rewrite** de apache debe estar habilitado para que las configuraciones del archivo *.htaccess* tengan efecto y así se pueda acceder a las diferentes rutas de este proyecto (*/radar-chart* y */sunburst-chart*). Además, se debe agregar **AllowOverride All** al *directory* correspondiente a este proyecto (archivo */etc/apache2*).
