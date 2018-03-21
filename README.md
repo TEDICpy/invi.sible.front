@@ -33,6 +33,7 @@ npm run build
 ``` bash
 docker-compose up
 ```
+
 **4.** Si se requiere se puede correr un dev:
 ``` bash
 docker-compose run app npm run dev
