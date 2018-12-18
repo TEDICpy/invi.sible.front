@@ -1,6 +1,8 @@
 #!/bin/bash -e
-
-/usr/local/bin/npm install
+echo -e "\n-----------------------"
+echo -e " Corriendo npm install"
+echo -e "-----------------------\n"
+cd /usr/src/app && /usr/local/bin/npm install
 
 exec "$@"
 
