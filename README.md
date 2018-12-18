@@ -39,6 +39,8 @@ docker-compose up
 docker-compose run app npm run dev
 ```
 
+**Nota:** Puede ser necesario borrar node-modules en el caso de actualizar paquetes en packages.json
+
 ## Archivo de configuración del proyecto
 
 El archivo de configuración del proyecto (*src/config.js*) debe contener las siguientes propiedades:
