@@ -1,13 +1,10 @@
-FROM node:6
+FROM node:10
 MAINTAINER Lu Pa <admin@tedic.org>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV CODE /usr/src/app
 
 WORKDIR $CODE
-
-# Copy code to conatiner volume
-COPY . .
 
 COPY docker-entrypoint.sh /
 
