@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "d3": "^4.13.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "npm-check-updates": "^3.2.1",
     "vue": "^2.5.17",
     "vue-resource": "^1.5.1",
